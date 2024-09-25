@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>AJAX Example with jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/strip.css">
+	</head>
+	<body>
+		<div id="loading"></div>
+		<form id="filter">
+			<input id="filter-text" type="text" placeholder="Filter by Text" value="">
+			 <!-- reminder users 需要注意字母的大小写 -->
+			<em>Case-sensitive</em>
+			<p id="filter-count"><strong>0</strong> records displayed.</p>
+		</form>
+		<h1>Records from SLQ</h1>
+		<section id="records">
+			 <!-- This is where the records fetched from the API will be dynamically added -->
+		</section>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/strip.pkgd.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
